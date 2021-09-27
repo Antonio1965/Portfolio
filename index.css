@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* Navagacion */
+.navbar-brand{
+  margin-left: 60px;
+}
+nav{
+  box-shadow: 0 0 10px 5px;
+}
+.nav-item{
+  margin-left: 25px;
+}
+
+/* Card de Cabeceras */
+.img-cab{
+  margin-top: 20px;
+  width: 350px;
+  border-radius: 150px 20px;
+}
+
+.card-foto{
+  border-style: none;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.card-body{
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.card-title{
+  font-size: 30px;
+}
+.card-text{
+  margin-left: 130px;
+  font-size: 20px;
+  
+}
+@media(max-width: 850px){
+  .card-text, .card-title{
+    display: none;
+  }
+}
+
+/* Sobre-mi */
+
+.sobre-mi-text{
+  font-size: 20px;
+  margin: 10px 40px;
+}
+.sobre-mi{
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Portfolio  */
+.proyectos{
+  text-align: center;
+  margin-top: 60px;
+}
+.portfolio{
+  margin-top: 30px;
+}
+.card-gral{
+  margin-bottom: 10px;
+}
+.card{
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 0 0 10px 5px;
+  
+}
+.card-body-portf{
+  margin-top: 60px;
+}
+.img-fluid{
+  border-radius: 20px;
+  
+}
+
+/* Titulos */
+h2{
+  font-size: 30px;
+  margin-top: 130px;
+}
+
+h3{
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 40px 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px 5px;
+}
+li{
+  margin: 15px;
+  list-style: none;
+}
+i{
+  margin-right: 15px ;
+  font-size: larger;
+}
+a{
+  text-decoration: none;
+}
+
+/* Contactos. */
+.contactos{
+  font-size: 25px;
+}
+.fa-envelope-open-text{
+  color: #572364;
+}
+.fa-mobile-alt{
+  color: green;
+}
+.fa-linkedin-in{
+  color: #0e76a8;
+}
+.fa-github{
+  color: black;
+}
+footer{
+  box-shadow: 0 0 10px 5px;
+
+}
