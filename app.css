@@ -4,11 +4,24 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body{
+  background-color: rgba(181, 184, 204, 0.308);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor{
+  width: 80%;
+  max-width: 1000px;
+  margin:0 auto;
+  overflow: hidden;
+}
 /* Navagacion */
 .navbar-brand{
+  width: 70%;
   margin-left: 60px;
+  box-sizing: border-box;
 }
 nav{
+  
   box-shadow: 0 0 10px 5px;
 }
 .nav-item{
@@ -29,27 +42,44 @@ nav{
 }
 .card-body{
   margin-left: 20px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .card-title{
   font-size: 30px;
 }
 .card-text{
-  margin-left: 100px;
+  margin-left: 120px;
   font-size: 25px;
+  margin-bottom: 0px;
   
 }
 .card-text1{
-  margin-left: 120px;
+  margin-left: 40px;
   font-size: 25px;
   
 }
-@media(max-width: 850px){
-  .card-text, .card-title{
-    display: none;
+@media screen and (max-width: 950px){
+  .card-title, .card-body{
+  display: none;
     
   }
-}
+  .card-text{
+    margin-left: 0px;
+  }
+  .img-cab{
+    margin-top: 15px;
+    width: 180px;
+    border-radius: 80px 20px;
+  }
+  footer{
+    font-size: 10px;
+   }
+   .footer-text{
+     padding-left: 20px;
+   }
+    
+  }
+
 
 /* Sobre-mi */
 
@@ -79,7 +109,7 @@ nav{
   
 }
 .card-body-portf{
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .img-fluid{
   border-radius: 20px;
@@ -115,6 +145,7 @@ a{
 /* Contactos. */
 .contactos{
   font-size: 25px;
+  padding-left: 40px;
 }
 .fa-envelope-open-text{
   color: #572364;
@@ -128,7 +159,20 @@ a{
 .fa-github{
   color: black;
 }
-footer{
-  box-shadow: 0 0 10px 5px;
 
+.footer-text{
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 800px){
+  body{
+    background-color: rgb(121, 230, 193);
+  }
+  .header{
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  
 }

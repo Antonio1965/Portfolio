@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
   <meta name="description" content="Porfolio Personal de TSUTSUMI, Jose Antonio">
     <meta name="keywords" content="Desarrollo Web, HTML, CSS, SASS, Frontend">
     <meta name="author" content="Tsutsumi Jose Antonio">
@@ -17,7 +17,9 @@
   <title>PORTFOLIO-JA-TSUTSUMI</title>
 </head>
 
-<body class="">
+<body>
+  
+  <header class="header">
   <nav class="navbar navbar-expand-lg navbar-light  fixed-top" style="background-color: #e3f2fd;">
       <a class="navbar-brand" href="#">Tsutsumi, José Antonio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +43,9 @@
       </div>
     </div>
   </nav>
-
+</header>
+<div class="contenedor">
+<section class="main">
   <div class="card-foto mb-3">
     <div class="row ">
       <div class="col-md-4">
@@ -50,8 +54,8 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Hola, Soy José Antonio Tsutsumi</h5>
-          <p class="card-text">Programador Front-end.</p>
-          <p class="card-text1">Software Tester QA.</p>
+          <p class="card-text">Developer Front-end.</p>
+          <p class="card-text1">Software Tester QA Manual-Automation.</p>
         </div>
       </div>
     </div>
@@ -63,6 +67,8 @@
 
         Como profesional en Industria mecanica, electrónica, logística, gerencial y tecnológica me llevó a indagar sobre la materia en el ámbito de la tecnología IT. Actualmente me encuentro desarrollando freelancer proyecto de programación IT y estudiando desarrollo frontend, React JS, software test QA, felizmente adquiriendo nuevas herramientas dentro de la programación y con muchas ganas de seguir aprendiendo. Mi propósito es desarrollar mi carrera profesional en una empresa donde pueda aplicar mis conocimientos e incrementar mi experiencia en el rubro.</p>
   </div>
+</section>
+<section class="proyectos-general">
         <div class="proyectos" id="portfolio">
           <h3 class="portfolio">PORTFOLIO</h3>
           <div class="card-gral">
@@ -139,6 +145,9 @@
             </div>
           </div>
         </div>
+      </section>
+    </div>
+  
     <div class="contactos" id="contactos">   
     <h3>Contactos</h3>
     <ul>
@@ -148,11 +157,13 @@
       <li><i class="fab fa-github"></i><a class="" href="https://github.com/Antonio1965" target="_blank">Github</a></li>
       <li>Argentina</li>
     </ul>
-  </div> 
-  </section>
+  
+    </div>
+
   <footer class="">
     <p class="footer-text"style="background-color: #e3f2fd;"> &copy, Todos los derechos reservados - Tsutsumi Jose Antonio-Setiembre de 2021.</p>
   </footer>
+</div>
   
 </body>
 </html>
