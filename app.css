@@ -67,9 +67,11 @@ nav{
     margin-left: 0px;
   }
   .img-cab{
+    align-content:initial;
     margin-top: 15px;
-    width: 180px;
+    width: 200px;
     border-radius: 80px 20px;
+  
   }
   footer{
     font-size: 10px;
@@ -175,11 +177,11 @@ a{
     width: 100%;
   }
   .footer-text{
-    padding-left: 20px;
+    padding-left: 60px;
   }
   .contactos{
     font-size: 25px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
   
 }
