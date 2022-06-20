@@ -145,7 +145,7 @@ a{
 /* Contactos. */
 .contactos{
   font-size: 25px;
-  padding-left: 40px;
+  padding-left: 500px;
 }
 .fa-envelope-open-text{
   color: #572364;
@@ -161,7 +161,7 @@ a{
 }
 
 .footer-text{
-  padding-left: 20px;
+  padding-left: 340px;
 }
 
 @media screen and (max-width: 800px){
