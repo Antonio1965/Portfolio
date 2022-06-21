@@ -5,7 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 body{
-  background-color: rgba(181, 184, 204, 0.308);
+  background-color: rgba(187, 194, 241, 0.329);
   font-family: Arial, Helvetica, sans-serif;
 }
 .contenedor{
@@ -176,7 +176,7 @@ a{
 
 @media screen and (max-width: 800px){
   body{
-    background-color: rgb(121, 230, 193);
+    background-color: rgba(121, 230, 194, 0.658);
   }
   .header{
     width: 100%;
