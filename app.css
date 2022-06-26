@@ -26,6 +26,10 @@ nav{
  color: black;
   
 }
+.navbar-light .navbar-toggler{
+  border-color: rgba(121, 230, 194, 0.658);
+  color: rgba(121, 230, 194, 0.658);
+}
 
 /* Card de Cabeceras */
 .img-cab{
